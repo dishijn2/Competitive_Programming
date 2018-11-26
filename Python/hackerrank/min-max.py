@@ -26,5 +26,5 @@ As you can see, the minimal sum is 1+2+3+4=10 and the maximal sum is 2+3+4+5=14.
 Thus, we print these minimal and maximal sums as two space-separated integers on a new line.
 """
 n = int(input())
-arr = list(map(int,input().split()))
-print(sum(arr) - max(arr),sum(arr) - min(arr))
+a = list(map(int,input().split()))
+print(sum(a) - max(a),sum(a) - min(a))
